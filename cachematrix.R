@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## If inverse of the matrix was previously solved,
 ## the cached inverse is returned.
 ##
-## This can potentially processing time.
+## This can potentially save processing time.
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   i <- x$getinverse()
